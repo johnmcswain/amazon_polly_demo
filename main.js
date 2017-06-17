@@ -19,7 +19,7 @@ app.use(function(req, res, next) {
 });
 
 app.get('/tts', polly.textToSpeech);
-
+app.get('/sts', polly.ssmlToSpeech);
 
 app.listen(port, function() {
     console.log('App is running on port ' + port);
