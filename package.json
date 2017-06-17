@@ -1,0 +1,31 @@
+{
+  "name": "amazonpollydemo",
+  "version": "0.0.1",
+  "description": "amazon polly demo code",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnmcswain/amazon_polly_demo.git"
+  },
+  "author": "John McSwain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnmcswain/amazon_polly_demo/issues"
+  },
+  "engines": {
+    "node": "6.9.1"
+  },
+  "homepage": "https://github.com/johnmcswain/amazon_polly_demo#readme",
+  "dependencies": {
+    "aws-sdk": "^2.41.0",
+    "body-parser": "^1.17.1",
+    "express": "4.15.2",
+    "pusher": "^1.5.1",
+    "request": "^2.81.0",
+    "stream": "0.0.2"
+  }
+}
